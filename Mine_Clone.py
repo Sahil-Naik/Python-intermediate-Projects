@@ -1,3 +1,7 @@
+# This is just the foundation program for Minecraft, no texture nor models are included just the working of placing and destroying blocks.
+# Minecraft is a sandbox game, Developed by Mojang. It's a 3D game, where you are in a cubic world, just squares everywhere.
+# This Minecraft Clone was made using Ursina Engine, a python game developing library.
+
 from ursina import *
 from ursina.prefabs.first_person_controller import FirstPersonController
 
