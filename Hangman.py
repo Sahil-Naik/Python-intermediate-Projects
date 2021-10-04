@@ -1,3 +1,5 @@
+# Hangman is a game where only some of the letters from a random words are displayed and you have to guess it before you run out of lives.
+
 import random
 word_list = ["BANANA","PINEAPPLE","RASPBERRY"]
 choice = random.choice(word_list)
