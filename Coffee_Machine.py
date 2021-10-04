@@ -1,17 +1,27 @@
-#machine mechanism
-def mach():
+# Machine Mechanism
+# This Program is a replica of real-life coffee machine, it's working is kept as close to real as possible.
+# This coffee machine is a coin operated vendor machine.
+
+def mach():         # mach = Machine
     # Coffee material left
     mlk = 300  # ml
     cof_bn = 200  # gm
     wtr = 500  # ml
 
-    # pricing of flavours
+    # Pricing of flavours
     lat = 10  # Rs.
     xpre = 15  # Rs.
     capa = 25  # Rs.
+    
+    # mlk = Milk, lat = Latte, xpre = Espresso, capa = Cappuccino, cof_bn = Coffee Beans, wtr = Water
 
+    # The while condition checks whether, there is sufficient coffee materials to process the given order.
+    # Insert coin is nothing but, it asks you to enter the exact value of your order. It also gives back your change it you insert excess money.
+    # Once the machine is out of materials, it ask user to refill again or not.
+    # Each order has it's own requirement of material, over-time the machine might ran out of any of the 3 materials, and hence won't work until refilled.
+    
     while mlk >= 55 and cof_bn >= 25 and wtr >= 60:
-        mac = input("\nLatte : 10\nCapacino : 25\nXpresso : 15\nType end to quit!\nSelect one Flavour : ").upper()
+        mac = input("\nLatte : 10\nCappuccino : 25\nEspresso : 15\nType end to quit!\nSelect one Flavour : ").upper()
         if mac == 'REPORT':
             print("\nMilk :",mlk,"ml\nCoffee beans :",cof_bn,"gm\nWater :",wtr,"ml")
         elif mac == 'LATTE':
