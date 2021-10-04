@@ -1,3 +1,6 @@
+# This program is nothing but a simple Encryption-Decryption.
+# Where e = encryption, d = decryption
+
 end = 0
 while end != 1:
     user_word = (input("\n1. Encrpyt\n2. Decrypt\nEnter What to do? ")).upper()
