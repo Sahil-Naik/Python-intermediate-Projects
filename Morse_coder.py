@@ -1,3 +1,6 @@
+# This is a simple Program which converts either Words to Morse code or Morse Code to Words.
+
+# Below is the Morse Code dictionary. The program takes letter from the given word and returns it's appropriate morse version. 
 morse_code = {'A':'.-', 'B':'-...', 'C':'-.-.', 'D':'-..', 'E':'.', 'F':'..-.', 'G':'--.', 'H':'....', 'I':'..',
               'J':'.---', 'K':'-.-', 'L':'.-..', 'M':'--', 'N':'-.','O':'---', 'P':'.--.', 'Q':'--.-', 'R':'.-.',
               'S':'...', 'T':'-', 'U':'..-', 'V':'...-', 'W':'.--', 'X':'-..-', 'Y':'-.--', 'Z':'--..', " ":" "}
