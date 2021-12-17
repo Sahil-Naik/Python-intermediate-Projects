@@ -34,13 +34,13 @@ def mach():         # mach = Machine
                 print("Your change is Rs.",coin-lat)
             else:
                 print("Insufficient coins")
-        elif mac == 'CAPACINO':
+        elif mac == 'CAPPUUCCINO':
             coin = int(input("Insert coin! "))
             if coin >= 25:
                 mlk -= 55
                 cof_bn -= 25
                 wtr -= 60
-                print("Here's you Capacino")
+                print("Here's you Cappuccino")
                 print("Your change is Rs.",coin-capa)
             else:
                 print("Insufficient coins")
