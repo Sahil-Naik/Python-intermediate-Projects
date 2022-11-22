@@ -1,4 +1,4 @@
-# This program is nothing but a simple Encryption-Decryption.
+# This program is a simple Encryption-Decryption.
 # Where e = encryption, d = decryption
 
 end = 0
